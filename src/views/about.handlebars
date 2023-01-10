@@ -1,0 +1,10 @@
+<h1>About Page</h1>
+
+<ul>
+    {{#each data}}
+    <li>
+        <h1>{{this.id}}. {{this.title}} </h1>
+        <p>{{this.content}}</p>
+    </li>
+    {{/each}}
+</ul>
